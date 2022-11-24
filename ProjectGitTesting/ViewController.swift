@@ -19,8 +19,8 @@ class ViewController: UIViewController {
         print(additionValue)
     }
 
-    
-    func add(x: Int, y: Int) {
+    // change done by Abdulla 24-11-2022
+    func add(x: Int, y: Int) -> Int {
         return x + y
     }
 
