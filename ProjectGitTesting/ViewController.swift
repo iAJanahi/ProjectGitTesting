@@ -14,8 +14,15 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         print(message)
+        
+        let additionValue = add(x: 10, y: 9)
+        print(additionValue)
     }
 
+    
+    func add(x: Int, y: Int) {
+        return x + y
+    }
 
 }
 
